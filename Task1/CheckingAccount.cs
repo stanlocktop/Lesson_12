@@ -2,7 +2,7 @@ namespace BankAccount
 {
     class CheckingAccount : BankAccount
     {
-        double overdraftLimit; // Ліміт овердрафту
+        double overdraftLimit; 
 
         public CheckingAccount(string accountHolder, double balance, double overdraftLimit) : base(accountHolder, balance)
         {
