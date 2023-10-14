@@ -13,6 +13,7 @@ namespace BankAccount
         {
             if (amount > 0)
             {
+                Console.OutputEncoding = System.Text.Encoding.Unicode;
                 balance += amount;
                 Console.WriteLine($"Внесено {amount:C}. Новий баланс: {balance:C}");
             }
